@@ -1,0 +1,28 @@
+.singleProduc {
+   padding: 25px 10px;
+   margin: 10px 15px;
+   transition: all 600ms;
+   background-color: white;
+   border-radius: 10px;
+   cursor: pointer;
+   
+}
+
+.singleProduc:hover {
+    padding: 25px 10px;
+    box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.5);
+    
+}
+.singleProduc img{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.singleProduc h4{
+    font-size: 18px;
+}
+
+.singleProduc p{
+    font-size: 13px;
+    color:  #7e7e7e;
+}

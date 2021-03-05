@@ -1,0 +1,54 @@
+.heroBanner{
+    height: 60vh;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.heroBanner  h1{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.search-bar{
+    margin-top: 30px
+}
+.search-bar input{
+    border-radius: 25px;
+    margin-left: -75px;
+    border: 0;
+    width: 300px;
+    padding: 10px;
+    font-size: 16px;
+    outline: none;
+    position: relative;
+    }
+.search-bar .search-btn {
+    background-color: red;
+    color: white;
+    border: 0px;
+    padding: 10px 35px;
+    border-radius: 25px;
+    margin-left: -35px;
+    position: absolute;
+    cursor: pointer;
+   
+}
+
+.categoryBtn button {
+    background-color: rgba(255, 255, 255, 00);
+    border: 0;
+    padding: 10px 15px;
+    font-size: 18px;
+    margin: 60px auto;
+    font-weight: 400;
+}
+
+.categoryBtn button:hover{
+   color: red;
+   
+}
+
+
